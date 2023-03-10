@@ -3,9 +3,9 @@ namespace Methods
 {
 	public static class SampleMethods
 	{
-		public static void SayHi()
+		public static void SayHi(string firstName)
 		{
-			Console.WriteLine("Hello User!");
+			Console.WriteLine($"Hello {firstName}!");
 		}
 
         public static void SayGoodybe()
