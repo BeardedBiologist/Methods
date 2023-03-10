@@ -8,11 +8,16 @@ namespace Methods
 			Console.WriteLine($"Hello {firstName}!");
 		}
 
-        public static string GetUsersName()
+        // TUPLE
+        public static (string, string) GetFullName()
         {
-            Console.Write("What is your name?: ");
-            string name = Console.ReadLine();
-            return name;
+            Console.Write("What is your first name?: ");
+            string firstName = Console.ReadLine();
+
+            Console.Write("What is your last name?: ");
+            string lastName = Console.ReadLine();
+
+            return (firstName, lastName);
         }
 
         public static void SayGoodybe()
