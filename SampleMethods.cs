@@ -7,6 +7,12 @@ namespace Methods
 		{
 			Console.WriteLine("Hello User!");
 		}
-	}
+
+        public static void SayGoodybe()
+        {
+            Console.WriteLine("Goodbye User!");
+        }
+    }
+
 }
 
